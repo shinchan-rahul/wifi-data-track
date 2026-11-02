@@ -1,0 +1,3 @@
+Passed: Android XML parsing; required project/asset files; 120-second recorder scheduling configuration; dashboard JavaScript syntax (node --check).
+Not run: Java compilation, Gradle build, JUnit tests, APK generation, live router authentication, certificate pin integration, Android screen-off collection, laptop dashboard integration. Environment lacks javac/Gradle/Android SDK.
+GitHub Actions is configured to run Android build/tests on push. Check its run result separately.
