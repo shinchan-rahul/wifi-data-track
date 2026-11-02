@@ -1,4 +1,5 @@
 package com.wifitrack;
+import android.webkit.CookieManager;
 import android.app.*;import android.os.*;import android.content.*;import android.view.*;import android.widget.*;import android.webkit.*;import android.net.*;import android.net.http.SslError;import java.net.*;import java.util.*;
 public final class MainActivity extends Activity {
  private TextView status;private final Handler handler=new Handler(Looper.getMainLooper());private WebView router;
